@@ -1,3 +1,4 @@
+![sharing 9dd29df345d7](https://github.com/cabonyi/Technical-onboarding-document/assets/88483311/e6e991ba-c614-4d69-ae84-1e024a474c4b)
 
 Table of Contents
 -------------------
@@ -176,11 +177,11 @@ Each product belongs to one and only one category.
 
 <details>
   <summary>Example in TSV</summary>
-```
-| Tables   |
-|----------|
-| col 1 is |
-```
+
+| Category iD  |
+|:----------:|
+| 945 |
+
 </details>.
 
 
