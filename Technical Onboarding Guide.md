@@ -1,5 +1,6 @@
 
-#Table of Contents
+Table of Contents
+-------------------
 - Purpose
 - Introduction
 - Import Schedule
@@ -68,43 +69,43 @@ XML
 
 |Field                      |Description                         |Restrictions      |Mandatory|
 |---------------------------|------------------------------------|------------------|---------|
-|[vendor id](#vendor-id)      |unique ad identifier                |max. 64 chars     |yes      |
-|[price](#price)        |   product price in cents if applicable                 |positive integer                  |yes/no         |
+|[vendor id](vendor-id)      |unique ad identifier                |max. 64 chars     |yes      |
+|[price](price)        |   product price in cents if applicable                 |positive integer                  |yes/no         |
 |seller name                |your company name                   |max. 60 chars     |no       |
-|[title](#title)                |product title                       |see title         |yes      |
-|[description](#description)    |product description                 |description       |yes      |
-|[category id](#category_ids)   |category identifier                 |numeric, positive |yes      |
-|[status](#status)            |desired status (default ACTIVE)     |ACTIVE,PAUSED     |no       |
-|[Url](#Url)                |product URL                         |max. 2048 chars   |yes      |
-|[vanityUrl](#vanityUrl)    |displayed URL                       |max. 256 chars    |yes       |
-|[price type](#price-type)  |sales model for product             |enum              |yes      |
+|[title](title)                |product title                       |see title         |yes      |
+|[description](description)    |product description                 |description       |yes      |
+|[category id](category_ids)   |category identifier                 |numeric, positive |yes      |
+|[status](status)            |desired status (default ACTIVE)     |ACTIVE,PAUSED     |no       |
+|[Url](Url)                |product URL                         |max. 2048 chars   |yes      |
+|[vanityUrl](vanityUrl)    |displayed URL                       |max. 256 chars    |yes       |
+|[price type](price-type)  |sales model for product             |enum              |yes      |
 | external                  |deprecated|-  | -
 |original price             |original price before discount      |positive integer  |no       |
 |media                      |product images                      |product images    |no       |
-|[Attributes](#Attributes)    |collection of product attributes    |attributes        |no       |
-|[budget](#budget)           |budget details                      |budget details    |no       |
-|[shippingOptions](#shippingOptions)      |shipping options        |shipping & pick-up|no       |
+|[Attributes](Attributes)    |collection of product attributes    |attributes        |no       |
+|[budget](budget)           |budget details                      |budget details    |no       |
+|[shippingOptions](shippingOptions)      |shipping options        |shipping & pick-up|no       |
 |phone number               |phone number                        |max. 32 chars     |no       |
 |email advertiser           |allow emails to the seller          |true,false        |no       |
 |region id                  |only applicable for Kijiji Canada   |numeric           |no       |
 |micro tip                  |tiny product highlight              |max. 18 chars     |no       |
-|[MPN](#MPN)                        |Manufacturer Part Number (MPN)      |2-70 chars        |no       |
-|[google product category](#google-product-category)    |google category for your product    |string            |no       |
-|[product type](#product-type)               |customer product type               |max. 750 chars    |no       |
-|[brand](#brand)                      |product brand name                  |max. 70 chars     |no       |
-|[GTIN](#GTIN)                       |Global Trade Identification Number  |max. 50 chars     |no       |
-|[item group id](#item-group-id )              |groups product variants in your     |max. 50 chars     |no       |
-|[condition](#condition)                  |condition of product                |enum              |no       |
-|[material](#material)                   |main product fabrics or materials   |max. 200 chars    |no       |
+|[MPN](MPN)                        |Manufacturer Part Number (MPN)      |2-70 chars        |no       |
+|[google product category](google-product-category)    |google category for your product    |string            |no       |
+|[product type](product-type)               |customer product type               |max. 750 chars    |no       |
+|[brand](brand)                      |product brand name                  |max. 70 chars     |no       |
+|[GTIN](GTIN)                       |Global Trade Identification Number  |max. 50 chars     |no       |
+|[item group id](item-group-id )              |groups product variants in your     |max. 50 chars     |no       |
+|[condition](condition)                  |condition of product                |enum              |no       |
+|[material](material)                   |main product fabrics or materials   |max. 200 chars    |no       |
 |[energy efficiency class](energy-efficiency-class)    |energy efficiency class             |enum              |no       |
-|[min energy efficiency class](#min-energy-efficiency-class)|minimal energy efficiency class     |enum              |no       |
-|[max energy efficiency class](#max-energy-efficiency-class)|maximal energy efficiency class     |enum              |no       |
-|[color](#color)                      |product colors                      |max. 100 chars    |no       |
-|[gender](#gender)                     |gender product is designed for      |enum              |no       |
-|[age group](#age-group)                  |age group product is intended for   |enum              |no       |
-|[size](#size)                       |size information                    |enum              |no       |
-|[unit pricing base measure](#unit-pricing-base-measure)  |denominator for product unit price  |string            |no       |
-|unit pricing measure       |measure and dimension of product    |string            |no       |
+|[min energy efficiency class](min-energy-efficiency-class)|minimal energy efficiency class     |enum              |no       |
+|[max energy efficiency class](max-energy-efficiency-class)|maximal energy efficiency class     |enum              |no       |
+|[color](color)                      |product colors                      |max. 100 chars    |no       |
+|[gender](gender)                     |gender product is designed for      |enum              |no       |
+|[age group](age-group)                  |age group product is intended for   |enum              |no       |
+|[size](size)                       |size information                    |enum              |no       |
+|[unit pricing base measure](unit-pricing-base-measure)  |denominator for product unit price  |string            |no       |
+|[unit pricing measure](unit-pricing-measure)       |measure and dimension of product    |string            |no       |
 ______
 ###vendor id {#vendor-id}
 
