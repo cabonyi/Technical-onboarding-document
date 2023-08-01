@@ -46,7 +46,7 @@ Table of Contents
   - [age group](#age-group)
   - [size](#size)
   - [unit pricing base measure](#unit-pricing-base-measure)
-  - [unit pricing measure](#unit-pricing-measure)![sharing 9dd29df345d7](https://github.com/cabonyi/Technical-onboarding-document/assets/88483311/2b36ccee-1aab-4b41-8c4b-a3085d585524)
+  - [unit pricing measure](#unit-pricing-measure)
 
 
 - Category Tree
@@ -57,12 +57,21 @@ Table of Contents
     - Budget
     - URL’s	
     - Shipping Option
+______
+## Purpose
+The purpose of this document is to assist Kleinanzeigen Advertising Partners during the Technical Onboarding phase.
+______
+## Introduction
+Kleinanzeigen’s 1st Party Advertising platform provides our partners the ability to publish relevant Advertising inventory on Kleinanzeigen.de.
+______
+## Import Types
+
+-   XML
+-   TSV: Download sample file here
+-  API
 
 
-
-
-
-# Feed Fields
+## Feed Fields
 
 
 A set of required and optional fields defined by a feed for XML file formats are listed below.
