@@ -67,7 +67,7 @@ ______
 ## Import Types
 
 -   XML
--   TSV: [Download sample file here](iCAS TSV feed sample.xlsx)
+-   TSV: [Download sample file here](Technical-onboarding-document/iCAS TSV feed sample.xlsx)
 -  API
 
 
