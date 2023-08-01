@@ -3,10 +3,10 @@
 
 Table of Contents
 -------------------
-- Purpose
-- Introduction
-- Import Schedule
-- Fields	
+- [Purpose](#Purpose)
+- [Introduction](#Introduction)
+- [Import Schedule](#Import-Schedule)
+- [Feed Fields](#Feed-Fields)
    -  Field Table
       -  Field
       -  Type
