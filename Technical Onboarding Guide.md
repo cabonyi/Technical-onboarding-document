@@ -1,4 +1,5 @@
-![sharing 9dd29df345d7](https://github.com/cabonyi/Technical-onboarding-document/assets/88483311/e6e991ba-c614-4d69-ae84-1e024a474c4b)
+<img width="969" alt="Bildschirmfoto 2023-08-01 um 14 04 28" src="https://github.com/cabonyi/Technical-onboarding-document/assets/88483311/b9f1ccc4-29a8-44a9-ae24-2e2820a802e2">
+
 
 Table of Contents
 -------------------
@@ -45,7 +46,8 @@ Table of Contents
   - [age group](#age-group)
   - [size](#size)
   - [unit pricing base measure](#unit-pricing-base-measure)
-  - [unit pricing measure](#unit-pricing-measure)
+  - [unit pricing measure](#unit-pricing-measure)![sharing 9dd29df345d7](https://github.com/cabonyi/Technical-onboarding-document/assets/88483311/2b36ccee-1aab-4b41-8c4b-a3085d585524)
+
 
 - Category Tree
 - XML Data Feed Ad Example
@@ -125,7 +127,7 @@ Use the title title field to clearly identify the product you are selling. The t
 Restrictions: Any string, with minimum and maximum length determined by the category, with a maximum cap of 120 characters. See Categories. URLs are not allowed as part of the title.
 
 ______
-### description {#description}
+### description
 Use the description field to tell customers about the details of the product you are selling.
 
 ```xml      
@@ -162,7 +164,7 @@ Restrictions: Any string, with minimum and maximum length determined by the cate
 ```
 ______
 
-### category id  {#category_ids}
+### category id 
 Use category id to place your product in the Categories tree.
 
 Each product belongs to one and only one category.
@@ -188,13 +190,13 @@ Each product belongs to one and only one category.
 
 Restrictions: An integer value from the category list. Must be an id of a leaf category with a non-zero parent id.
 ______
-### status {#status}
+### status 
 Use status to change the state of your ad.
 
 
 Must be one of the following:
 
-|Name| Description  |
+|Name| description  |
 |---|---|
 |ACTIVE|  The ad will be active (as long as there is budget for it) and it can be found on the marketplace. |
 |  PAUSED |The ad will be paused, effectively not found on the marketplace.|
@@ -202,21 +204,21 @@ Must be one of the following:
 
 The provided (desired) status may differ from the resulting one, depending on the other conditions. For instance, budget may be depleted, or you may have too many active ads already in the category.
 ______
-### url  {#Url}
+### Url  {#Url}
 Utilize the url to establish a connection to your product page from the advertisement. This represents an external URL, which will be displayed on the ad detail page or search result page.
 ```xml
         <url>https://www.bmw.de</url>
 ```
 Restrictions: Must be a valid http(s) url.
 ______
-### vanity url
+### vanityUrl
 
 Use vanity url to provide the text for the url link
 ```xml
         <vanityUrl>BMW</vanityUrl>
 ```
 ______
-### price type {#PriceTypes}
+### PriceTypes
 Use price type to define pricing model for your product.
 
 ```xml
@@ -224,15 +226,14 @@ Use price type to define pricing model for your product.
 ```
 Allowed Values: FIXED_PRICED
 ______
-### price {#price}
-
+### price 
 Use price to tell customers the price of the product you are selling. The meaning of the value depends on the price type.
 ```xml
         <price>1500</price>
 ```
 Restrictions: The maximum allowed price value is 10000000000 given in cents of the local market currency. (100.000.000,00 EUR / CAD / … )
 ______
-### product images {#images}
+### Images {#images}
 
 You can provide multiple images for your product.
 
@@ -255,7 +256,7 @@ Allowed image formats: JPEG, JPG, PNG, GIF*, BMP.
 *Please note that GIFs are not recommended format as they are only 256 colors or less. Also, animated GIFs and PNGs are not supported.
 
 ______  
-### attributes {#Attributes}
+### Attributes
 Use **attributes** field to provide additional information on your product in a structured way.
 
 attributes tag contains collection of product User-Defined Attributes (category-dependent), that can be used to influence the ad relevance.
@@ -285,7 +286,7 @@ attributes tag contains collection of product User-Defined Attributes (category-
 **attributes** tag contains collection of product [User-Defined Attributes](http://ecg-icas.github.io/icas/doc/next/attributes.html#user-defined-attributes) (category-dependent), that can be used to influence the ad relevance.
 ______
 
-### shipping & pick-up {#shipping_&_pick-up}
+### shipping & pick-up
 Provide the information on how your product can be delivered to customers.
 
 You can provide multiple shipping/ pick-up options for each product. Each option can be described with the following information:
@@ -313,7 +314,7 @@ _PICKUP_ means the item can be picked up at the provided location For shippingTy
 Restrictions: Shipping options can be disabled/optional/mandatory for an ad. It is configured per category, see [Category Configuration](http://ecg-icas.github.io/icas/doc/next/categories.html#category-config-v2).
 
 ______
-### MPN {#MPN}
+### MPN
 
 
 Manufacturer Part Number (MPN), definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324482) guidelines.
@@ -326,7 +327,7 @@ Manufacturer Part Number (MPN), definition follows [Google Merchant Center](http
 
 Restrictions: String identifier max 70 characters long.
 ______
-### google product category {##google-product-category}
+### google product category
 
 
 Use this field to describe your product category in Google’s product taxonomy. See [Google Merchant Center](https://support.google.com/merchants/answer/6324436)
@@ -344,7 +345,7 @@ Use this field to describe your product category in Google’s product taxonomy.
 ```
 Restrictions: Should be a valid category. You can provide it, either with identifier, or giving full category path.
 ______
-### brand {#brand}
+### brand
 
 Use the **brand** field to help customers identify your product. Brand definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324351) guidelines.
 
@@ -355,7 +356,7 @@ Use the **brand** field to help customers identify your product. Brand definitio
 Restrictions: Do not exceed 70 characters limit for your text.
 
 ______
-### product type {#product-type}
+### product type
 
 
 The **product type** field provides an opportunity for you to incorporate your unique product classification system into the dataset. Definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324406) guidelines.
@@ -368,7 +369,7 @@ The **product type** field provides an opportunity for you to incorporate your u
 
 Restrictions: Do not exceed 70 characters limit for your text.
 ______
-### GTIN  {#GTIN}
+### GTIN
 
 
 GTIN (Your product’s Global Trade Item Number), definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324461) guidelines.
@@ -380,7 +381,7 @@ GTIN (Your product’s Global Trade Item Number), definition follows [Google Mer
 
 Restrictions: String identifier max 50 chars.
 ______
-### item group id {##item-group-id}
+### item group id
 
 
 Use this field to group product variants in your product data. Item group id definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324507) guidelines.
@@ -391,7 +392,7 @@ Use this field to group product variants in your product data. Item group id def
 
 Restrictions: Text max. length 50 characters.
 ______
-### condition {#condition}
+### condition
 
 
 Use this field to inform customers about the condition of your product. Condition definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324469) guidelines.
@@ -401,7 +402,7 @@ Use this field to inform customers about the condition of your product. Conditio
 ```
 Accepted values: _new_, _refurbished_, _used_
 ______
-### material {#material}
+### material
 
 
 **Material** field describes the main fabric or material that your product is made of. Material definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324410) guidelines.
@@ -412,7 +413,7 @@ ______
 
 Restrictions: Use human readable material names. Provide up to 3 materials. Separate materials with a slash (“/”) character when there are multiple. Do not exceed 200 characters limit for your text.
 ______
-### energy efficiency class {#energy-efficiency-class}
+### energy efficiency class
 
 
 Use this field to tell customers how your product rates on a given energy efficiency range. See [Google Merchant Center](https://support.google.com/merchants/answer/7562785)
@@ -449,8 +450,7 @@ Use **color** field to tell customers about the dominant colors of your product.
 ```
 Restrictions: Use human readable color names. Provide up to 3 colors. Separate colors with / if more than one. Do not exceed 100 characters limit for your text.
 ______
-### gender {#gender}
-
+### gender
 
 Use **gender** field to describe the gender your product is designed for. Gender definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324479) guidelines.
 
@@ -458,7 +458,7 @@ Use **gender** field to describe the gender your product is designed for. Gender
     <gender>unisex</gender>
 ```
 ______
-### age group {#age-group}
+### age group
 
 
 Use **age group** field to describe the age group your product is targeted at. Definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324463) guidelines.
@@ -469,7 +469,7 @@ Use **age group** field to describe the age group your product is targeted at. D
 
 Allowed values: _newborn_, _infant_, _toddler_, _kids_, _adult_
 ______
-### size  {#size}
+### size
 
 
 Use **size** field to describe standardized size of your product. Size definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324492) guidelines.
@@ -480,8 +480,7 @@ Use **size** field to describe standardized size of your product. Size definitio
 
 Restrictions: String identifier max 1-100 chars.
 ______
-### unit pricing base measure {#unit-pricing-base-measure}
-
+### unit pricing base measure
 The denominator for product unit price. See [Google Merchant Center](https://support.google.com/merchants/answer/6324490). This field attribute tells the customer how the price of your product translates per unit.
 
 ```xml
@@ -503,8 +502,7 @@ Supported unit values:
 *   **Per unit**: _ct_
 ______    
 
-### unit pricing measure {#unit-pricing-measure}
-
+### unit pricing measure
 
 Defines the measure and dimension of the product. That value helps the customers to understand the exact price per unit for your product. Example 125ml, 100g. See [Google Merchant Center](https://support.google.com/merchants/answer/6324455).
 
