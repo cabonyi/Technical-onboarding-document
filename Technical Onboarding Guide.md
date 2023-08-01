@@ -66,9 +66,9 @@ Kleinanzeigen’s 1st Party Advertising platform provides our partners the abili
 ______
 ## Import Types
 
--   XML
+-   XML : See below examples
 -   TSV: [Download sample file here](https://github.com/cabonyi/Technical-onboarding-document/blob/fef352fa6fa06ae519c26314a030e6cea5a42dfd/iCAS%20TSV%20feed%20sample.xlsx)
--  API
+-  API: TBD
 
 
 ## Feed Fields
