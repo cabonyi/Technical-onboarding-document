@@ -108,7 +108,7 @@ XML
 |[unit pricing base measure](unit-pricing-base-measure)  |denominator for product unit price  |string            |no       |
 |[unit pricing measure](unit-pricing-measure)       |measure and dimension of product    |string            |no       |
 ______
-### vendor id {#vendor-id}
+### vendor Id 
 
 The vendor id field is the _**unique identifier**_ of the ad. It is there to let us know, for consecutive imports, which ads are the same. This results is allowing us to track and update an existing ad with the same vendor id instead of creating a new ad. vendor id is mandatory and, unique for each ad in the feed.
 ```xml
@@ -116,7 +116,7 @@ The vendor id field is the _**unique identifier**_ of the ad. It is there to let
 ```
   Restrictions: Any non-empty string with a maximum length of 64 characters.
 ______
-### title {#title}
+### title 
 
 Use the title title field to clearly identify the product you are selling. The title is one of the most prominent parts of your ad or free listing. A specific and accurate title will help us show your product to the right customer.
 ```xml
