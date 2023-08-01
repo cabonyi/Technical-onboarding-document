@@ -62,7 +62,7 @@ ______
 The purpose of this document is to assist Kleinanzeigen Advertising Partners during the Technical Onboarding phase.
 ______
 ## Introduction
-Kleinanzeigen’s 1st Party Advertising platform provides our partners the ability to publish relevant Advertising inventory on Kleinanzeigen.de.
+Kleinanzeigen’s 1st Party Advertising platform provides our partners the ability to publish relevant Advertising inventory on <http://Kleinanzeigen.de>.
 ______
 ## Import Types
 
@@ -80,7 +80,7 @@ XML
 
 
 |Field                      |Description                         |Restrictions      |Mandatory|
-|---------------------------|------------------------------------|------------------|---------|
+|:---------------------------|:------------------------------------|:-----------------:|:---------:|
 |[vendor id](vendor-id)      |unique ad identifier                |max. 64 chars     |yes      |
 |[price](price)        |   product price in cents if applicable                 |positive integer                  |yes/no         |
 |seller name                |your company name                   |max. 60 chars     |no       |
