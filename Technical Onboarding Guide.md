@@ -213,7 +213,7 @@ Must be one of the following:
 
 The provided (desired) status may differ from the resulting one, depending on the other conditions. For instance, budget may be depleted, or you may have too many active ads already in the category.
 ______
-### Url  {#Url}
+### Url 
 Utilize the url to establish a connection to your product page from the advertisement. This represents an external URL, which will be displayed on the ad detail page or search result page.
 ```xml
         <url>https://www.bmw.de</url>
