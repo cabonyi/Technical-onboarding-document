@@ -449,7 +449,7 @@ Used in combination with **min energy efficiency class** to describe the product
     <minEnergyEfficiencyClass>G</minEnergyEfficiencyClass>
 ```
 ______
-### color {#color}
+### color 
 
 
 Use **color** field to tell customers about the dominant colors of your product. Color definition follows [Google Merchant Center](https://support.google.com/merchants/answer/6324487) guidelines.
