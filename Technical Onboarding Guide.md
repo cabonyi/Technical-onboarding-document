@@ -38,17 +38,15 @@ XML
 
 |Field                      |Description                         |Restrictions      |Mandatory|
 |:---------------------------|:------------------------------------|:-----------------:|:---------:|
-|[vendor Id](vendor-id)      |unique ad identifier                |max. 64 chars     |yes      |
-|[price](price)        |   product price in cents if applicable                 |positive integer                  |yes/no         |
-|seller name                |your company name                   |max. 60 chars     |no       |
-|[title](title)                |product title                       |see title         |yes      |
+|[vendor Id](#vendor-id)      |unique ad identifier                |max. 64 chars     |yes      |
+|[price](#price)        |   product price in cents if applicable   |positive integer   |yes/no         |
+|[title](#title)                |product title                       |see title         |yes      |
 |[description](description)    |product description                 |description       |yes      |
 |[category id](category_ids)   |category identifier                 |numeric, positive |yes      |
-|[status](status)            |desired status (default ACTIVE)     |ACTIVE,PAUSED     |no       |
 |[Url](Url)                |product URL                         |max. 2048 chars   |yes      |
 |[vanityUrl](vanityUrl)    |displayed URL                       |max. 256 chars    |yes       |
 |[price type](price-type)  |sales model for product             |enum              |yes      |
-| external                  |deprecated|-  | -
+|[status](status)            |desired status (default ACTIVE)     |ACTIVE,PAUSED     |no       |
 |original price             |original price before discount      |positive integer  |no       |
 |media                      |product images                      |product images    |no       |
 |[Attributes](Attributes)    |collection of product attributes    |attributes        |no       |
@@ -56,7 +54,7 @@ XML
 |[shippingOptions](shippingOptions)      |shipping options        |shipping & pick-up|no       |
 |phone number               |phone number                        |max. 32 chars     |no       |
 |email advertiser           |allow emails to the seller          |true,false        |no       |
-|region id                  |only applicable for Kijiji Canada   |numeric           |no       |
+|seller name                |your company name                   |max. 60 chars     |no       |
 |micro tip                  |tiny product highlight              |max. 18 chars     |no       |
 |[MPN](MPN)                        |Manufacturer Part Number (MPN)      |2-70 chars        |no       |
 |[google product category](google-product-category)    |google category for your product    |string            |no       |
