@@ -38,7 +38,7 @@ XML
 
 |Field                      |Description                         |Restrictions      |Mandatory|
 |:---------------------------|:------------------------------------|:-----------------:|:---------:|
-|[vendor id](vendor-id)      |unique ad identifier                |max. 64 chars     |yes      |
+|[vendor Id](vendor-id)      |unique ad identifier                |max. 64 chars     |yes      |
 |[price](price)        |   product price in cents if applicable                 |positive integer                  |yes/no         |
 |seller name                |your company name                   |max. 60 chars     |no       |
 |[title](title)                |product title                       |see title         |yes      |
