@@ -184,7 +184,7 @@ Use price to tell customers the price of the product you are selling. The meanin
 ```
 Restrictions: The maximum allowed price value is 10000000000 given in cents of the local market currency. (100.000.000,00 EUR / CAD / … )
 ______
-### Images {#images}
+### Images
 
 You can provide multiple images for your product.
 
