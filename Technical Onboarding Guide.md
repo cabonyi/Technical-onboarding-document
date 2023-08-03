@@ -132,23 +132,10 @@ ______
 Use category id to place your product in the Categories tree.
 
 Each product belongs to one and only one category.
-<details>
-  <summary>Example in XML</summary>
 
-  
 ```xml
      <categoryId>945</categoryId> 
 ```
-</details>
-
-<details>
-  <summary>Example in TSV</summary>
-
-| Category iD  |
-|:----------:|
-| 945 |
-
-</details>.
 
 
 
