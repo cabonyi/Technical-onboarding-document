@@ -41,3 +41,23 @@
   - [size](#size)
   - [unit pricing base measure](#unit-pricing-base-measure)
   - [unit pricing measure](#unit-pricing-measure)
+
+
+
+<details>
+  <summary>Example in XML</summary>
+
+  
+```xml
+     <categoryId>945</categoryId> 
+```
+</details>
+
+<details>
+  <summary>Example in TSV</summary>
+
+| Category iD  |
+|:----------:|
+| 945 |
+
+</details>.
