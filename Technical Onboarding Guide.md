@@ -175,7 +175,11 @@ Use price type to define pricing model for your product.
 ```xml
         <priceType>FIXED_PRICE</priceType>
 ```
-Allowed Values: FIXED_PRICED
+
+```xml
+        <priceType>NOT_APPLICABLE</priceType>
+```
+Allowed Values: FIXED_PRICED, NOT_APPLICABLE
 ______
 ### price 
 Use price to tell customers the price of the product you are selling. The meaning of the value depends on the price type.
@@ -523,16 +527,25 @@ When a feed file cannot be fetched, nothing will change on the user’s ads. It�
 
 <details>
   <summary>I have updated my feed images, and after the successful import there is no change.</summary>
+
 If you’re changing the images without changing the URLs, the changes may not be picked up, in case the rest of the ad is also unchanged. We suggest adding a bogus parameter to the image URL to force a re-processing of the ad and its images. Make sure to not change this for every feed import, but only when you require images to be re-processed.
 </details>
 
 <details>
   <summary>What happens if my feed file cannot be fetched</summary>
-If the fetched XML file does not validate against the XSD there will be no changes to your ads. Existing ads will remain unchanged and no new ads will be created.
+
+    If the fetched XML file does not validate against the XSD there will be no changes to your ads. Existing ads will remain unchanged and no new ads will be created.
 </details>
 
 <details>
   <summary>What happens when my XML does not validate against XSD</summary>
-If the fetched XML file does not validate against the XSD there will be no changes to your ads. Existing ads will remain unchanged and no new ads will be created.
+
+    If the fetched XML file does not validate against the XSD there will be no changes to your ads. Existing ads will remain unchanged and no new ads will be created.
+</details>
+
+<details>
+  <summary>Do I have to insert a price if I am business model do not support prices</summary>
+
+    For service providers (for e.g in the Job category), a combination of the following tags ``` <price>0</price> ``` and ` <priceType>NOT_APPLICABLE</priceType>` can be used to achieve the same purpose.
 </details>
 
