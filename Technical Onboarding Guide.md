@@ -19,7 +19,19 @@ ______
 The purpose of this document is to assist Kleinanzeigen Advertising Partners during the Technical Onboarding phase.
 ______
 ## Introduction
-Kleinanzeigen’s 1st Party Advertising platform provides our partners the ability to publish relevant Advertising inventory on <http://Kleinanzeigen.de>.
+Dear Valued Customer,
+
+Congratulations on choosing Kleinanzeigen. We are thrilled to partner with you and assist you in showcasing your products to our extensive network of users. Our commitment to your success starts right here with this comprehensive onboarding guide.
+
+As you embark on this exciting journey with us, we want to make your transition as smooth and efficient as possible. This guide is designed to walk you through the process of importing your product feeds into our Ad Server, so you can get your ads up and running quickly.
+Here's what you need to know:
+
+1. XML Feed: In the past, creating an XML feed was a customer responsibility. However, to streamline the process and ensure accuracy, our dedicated Technical Account Manager will now handle the creation of the XML feed for you. Details on how to proceed with this option are provided in the guide.
+
+2. TSV (Tab-Separated Values) Feed: If you prefer, you can utilize TSV format to import your product feeds. This option offers flexibility and simplicity, and this guide includes step-by-step instructions to get you started.
+
+3. API Connection (Beta Phase): For those interested in cutting-edge solutions, we are excited to offer an API connection. This option is currently in Beta testing phase, and we invite you to be part of this innovative integration. Please note that as this is a Beta feature, you'll have direct support from our technical team to ensure a seamless experience.
+Our Customer Success team is always here to support you, and we encourage you to reach out with any questions or concerns. Your success is our success, and we are committed to providing you with the tools, resources, and personalized support you need to thrive on our platform.
 ______
 ## Import Types
 
