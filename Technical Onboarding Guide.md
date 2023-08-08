@@ -7,7 +7,7 @@
 - [Introduction](#Introduction)
 - [Import Schedule](#Import-Schedule)
 - Category Tree
-- XML Data Feed Ad Example
+- [XML Data Feed Ad Example](#XML-Data-Feed-Ad-Example)
 - Feed Debugging and Validation
 - FAQ
     - Price
@@ -32,6 +32,88 @@ Here's what you need to know:
 
 3. API Connection (Beta Phase): For those interested in cutting-edge solutions, we are excited to offer an API connection. This option is currently in Beta testing phase, and we invite you to be part of this innovative integration. Please note that as this is a Beta feature, you'll have direct support from our technical team to ensure a seamless experience.
 Our Customer Success team is always here to support you, and we encourage you to reach out with any questions or concerns. Your success is our success, and we are committed to providing you with the tools, resources, and personalized support you need to thrive on our platform.
+______
+
+## XML Data Feed Ad Example
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<ads xmlns:admarkt="http://admarkt.marktplaats.nl/schemas/1.0">
+    <ad>
+        <vendorId>42</vendorId>
+        <title>Bally 1992 Adams Family</title>
+        <description>Best pinball machine ever made</description>
+        <categoryId>999</categoryId>
+        <url>https://pinball.com/game/bally-adams-family/</url>
+        <vanityUrl>https://pinball.com</vanityUrl>
+        <price>875000</price>
+        <originalPrice>875000</originalPrice>
+        <priceType>FIXED_PRICE</priceType>
+        <phoneNumber>16123456789</phoneNumber>
+        <emailAdvertiser>true</emailAdvertiser>
+        <sellerName>Pinball King</sellerName>
+        <status>ACTIVE</status>
+        <media>
+            <image url="https://pinball.com/game/bally-adams-family/1.jpg"/>
+        </media>
+        <budget>
+            <totalBudget>10000</totalBudget>
+            <dailyBudget>1000</dailyBudget>
+            <autobid>true</autobid>
+        </budget>
+        <shippingOptions>
+            <shippingOption>
+                <shippingType>PICKUP</shippingType>
+                <location>1097DN</location>
+            </shippingOption>
+            <shippingOption>
+                <shippingType>PICKUP</shippingType>
+                <location>1055AB</location>
+            </shippingOption>
+            <shippingOption>
+                <shippingType>SHIP</shippingType>
+                <cost>695</cost>
+                <time>2d-5d;</time>
+            </shippingOption>
+            <shippingOption>
+                <shippingType>SHIP</shippingType>
+                <cost>1195</cost>
+                <time>1d-2d</time>
+            </shippingOption>
+        </shippingOptions>
+        <attributes>
+            <attribute>
+                <attributeName>model</attributeName>
+                <attributeValue>Adams Family</attributeValue>
+            </attribute>
+            <attribute>
+                <attributeName>multiball</attributeName>
+                <attributeValue>TRUE</attributeValue>
+            </attribute>
+            <attribute>
+                <attributeName>screen size</attributeName>
+                <attributeValue>32"</attributeValue>
+            </attribute>
+            <attribute>
+                <attributeName>resolutions</attributeName>
+                <attributeValue>1024x768:24dpi</attributeValue>
+                <attributeValue>800x600:18dpi</attributeValue>
+            </attribute>
+        </attributes>
+        <gtin>93845278905</gtin>
+        <productType>Hobby &amp; Games &gt; Arcade Games &gt; Pinball Machines</productType>
+        <googleProductCategory>Electronics &gt; Arcade Equipment &gt; Pinball Machines</googleProductCategory>
+        <brand>Bally</brand>
+        <condition>refurbished</condition>
+        <energyEfficiencyClass>E</energyEfficiencyClass>
+        <minEnergyEfficiencyClass>F</minEnergyEfficiencyClass>
+        <maxEnergyEfficiencyClass>D</maxEnergyEfficiencyClass>
+        <color>black/white/green</color>
+        <gender>unisex</gender>
+        <ageGroup>adult</ageGroup>
+        <itemGroupId>BC23456</itemGroupId>
+    </ad>
+</ads>
+```
 ______
 ## Import Types
 
