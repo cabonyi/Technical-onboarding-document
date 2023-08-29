@@ -582,18 +582,13 @@ ______
 Below are some common scenarios and questions with their explanations/answers.
 <details>
   <summary>How to use TSV format?</summary>
-
-
-
 We introduced the TSV format in our system, to simplify the integration path. Our customers commonly use spreadsheets to store and manipulate the data, and “TSV export” is a standard option for the majority of spreadsheet programs.
 
 The three important things to remember for successful integration:
 
-1.There are some column names, that we will look for, and expect to find in your TSV feed.
-
-2. Multiline fields need to be escaped with double quotes, or all the line breaks changed to \n.
-
-3. Some complex fields, like shipping & pick-up or attributes must follow the specified encoding conventions.
+    1.There are some column names, that we will look for, and expect to find in your TSV feed.
+    2.Multiline fields need to be escaped with double quotes, or all the line breaks changed to \n.
+    3.Some complex fields, like shipping & pick-up or attributes must follow the specified encoding conventions.
 
 </details>
 
@@ -601,8 +596,8 @@ The three important things to remember for successful integration:
   <summary>What are the newly added fields</summary>
 
 Those fields are considered a ‘widely adopted market standard’, required, or recommended for advertising on many other channels: 
-  + [MPN](mpn)
-  + [google product category](#google-product-category)
+  - [MPN](mpn)
+  - [google product category](#google-product-category)
   - [brand](#brand)
   - [product type](#product-type)
   - [GTIN](#gtin)
@@ -635,19 +630,22 @@ If you’re changing the images without changing the URLs, the changes may not b
 <details>
   <summary>What happens if my feed file cannot be fetched</summary>
 
-    If the fetched XML file does not validate against the XSD there will be no changes to your ads. Existing ads will remain unchanged and no new ads will be created.
+    If the fetched XML file does not validate against the XSD there will be no changes to your ads.
+    Existing ads will remain unchanged and no new ads will be created.
 </details>
 
 <details>
   <summary>What happens when my XML does not validate against XSD</summary>
 
-    If the fetched XML file does not validate against the XSD there will be no changes to your ads. Existing ads will remain unchanged and no new ads will be created.
+    If the fetched XML file does not validate against the XSD there will be no changes to your ads. 
+    Existing ads will remain unchanged and no new ads will be created.
 </details>
 
 <details>
   <summary>Do I have to insert a price if I am business model do not support prices</summary>
 
-    For service providers (for e.g in the Job category), a combination of the following tags ``` <price>0</price> ``` and ` <priceType>NOT_APPLICABLE</priceType>` can be used to achieve the same purpose.
+    For service providers (for e.g in the Job category), combination of the following tags ``` <price>0</price> ``` 
+    and ` <priceType>NOT_APPLICABLE</priceType>` can be used to achieve the same purpose.
 </details>
 
 <details>
@@ -663,26 +661,30 @@ For customers importing Jobs or Services using ‘0’  for price is suggested
   <summary> Do I need to include a budget?</summary>
 
     Yes, Price is mandatory. If you are using ‘FIXED_PRICE’ as your priceType then the value must be greater than ‘0’.
+    For customers importing Jobs or Services using ‘0’  for price is suggested
 
-For customers importing Jobs or Services using ‘0’  for price is suggested
-
-Sample Budget XML:
-
-  <budget>
-
-     <cpc>50</cpc>
-
-     <dailyBudget>2500</dailyBudget>
-
-     <totalBudget>50000</totalBudget>
+    **Sample Budget XML**:
+    
+      <budget>
+    
+         <cpc>50</cpc>
+    
+         <dailyBudget>2500</dailyBudget>
+    
+         <totalBudget>50000</totalBudget>
 
    </budget>
-Based on the above configuration, this Ad will no longer be displayed when the total budget exceeds 50000 Cents (€500) or the daily budget exceeds 2500 Cents (€25).
-The Daily Budget for Ads is reset at midnight, where the Total Budget persits as long as the item is included in the feed.
-Daily Budget is an optional field and can be left blank. When setting the Daily Budget via the feed the value must be 10 Cents or greater.
 
+    Based on the above configuration, this Ad will no longer be displayed when the total budget exceeds 50000 Cents (€500)
+    or the daily budget exceeds 2500 Cents (€25).
+    
+    The Daily Budget for Ads is reset at midnight, where the Total Budget persits as long as the item is included in the feed.
+    Daily Budget is an optional field and can be left blank. 
+    When setting the Daily Budget via the feed, the value must be 10 Cents or greater.
+    
 
-**There is also the ‘Feed Daily' budget which controls the limit for the entire feed. This budget is configured by an eBK Admin and must be discussed with the Business Development prior to the feed activation.
+    **There is also the ‘Feed Daily' budget which controls the limit for the entire feed. 
+    This budget is configured by an eBK Admin and must be discussed with the Business Development prior to the feed activation.
 
 </details>
 
@@ -735,15 +737,15 @@ All data feeds must be validated before importing to the EBK platform. The comma
 
 When an error is reached, the script will terminate and output the error to the console.
 
-When the file passes the validation process, the script will output to the console:
+    When the file passes the validation process, the script will output to the console:
+    
+    ‘fileName.xml validates’
 
-‘fileName.xml validates’
+**Validation Script:**
 
-Validation Script:
-
-xmllint --nonet --nowarning --noout --encode "UTF-8" --dropdtd --noent fileName.xml --schema Admarkt.xsd
-
--Replace filename.xml with your XML file name.
+    xmllint --nonet --nowarning --noout --encode "UTF-8" --dropdtd --noent fileName.xml --schema Admarkt.xsd
+    
+    -Replace filename.xml with your XML file name.
 
 
 
