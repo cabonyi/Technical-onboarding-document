@@ -599,7 +599,8 @@ The three important things to remember for successful integration:
 
 <details>
   <summary>What are the newly added fields</summary>
-    Those fields are considered a ‘widely adopted market standard’, required, or recommended for advertising on many other channels: 
+
+Those fields are considered a ‘widely adopted market standard’, required, or recommended for advertising on many other channels: 
   + [MPN](mpn)
   + [google product category](#google-product-category)
   - [brand](#brand)
@@ -648,8 +649,6 @@ If you’re changing the images without changing the URLs, the changes may not b
 
     For service providers (for e.g in the Job category), a combination of the following tags ``` <price>0</price> ``` and ` <priceType>NOT_APPLICABLE</priceType>` can be used to achieve the same purpose.
 </details>
-______
-#### Price
 
 <details>
   <summary> Do I need to add a Price?</summary>
@@ -658,8 +657,7 @@ ______
 
 For customers importing Jobs or Services using ‘0’  for price is suggested
 </details>
-______
-#### Budget
+
 
 <details>
   <summary> Do I need to include a budget?</summary>
@@ -687,18 +685,14 @@ Daily Budget is an optional field and can be left blank. When setting the Daily 
 **There is also the ‘Feed Daily' budget which controls the limit for the entire feed. This budget is configured by an eBK Admin and must be discussed with the Business Development prior to the feed activation.
 
 </details>
-______
 
-#### URL
 <details>
   <summary> What is a vanityUrl? Do we need it?</summary>
 
     The vanityUrl is a mandatory field. This field is displayed in the Ad and should be ‘YourCompanyName.com’
 </details>
-______
 
 
-### Shipping Option
 <details>
   <summary> How can I display Ads which offer Free shipping? </summary>
 
@@ -731,10 +725,10 @@ ______
 
         </attributes>
 ```
-</details>
+</details>.
+
+
 ______
-
-
 ### Debugging and Validation
 
 All data feeds must be validated before importing to the EBK platform. The command line script below can be used in any terminal to identify errors.
