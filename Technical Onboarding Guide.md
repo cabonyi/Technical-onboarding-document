@@ -3,6 +3,7 @@
 <img width="969" alt="Bildschirmfoto 2023-08-01 um 14 04 28" src="https://github.com/cabonyi/Technical-onboarding-document/assets/88483311/b9f1ccc4-29a8-44a9-ae24-2e2820a802e2">
 
 # Technical Onboarding Guide
+To alternatively view this file on Github, kindly visit this URL <https://github.com/cabonyi/Technical-onboarding-document/blob/main/Technical%20Onboarding%20Guide.md>
 
 # Table of Contents
 
