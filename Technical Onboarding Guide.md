@@ -582,7 +582,10 @@ ______
 Below are some common scenarios and questions with their explanations/answers.
 <details>
   <summary>How to use TSV format?</summary>
-    We introduced the TSV format in our system, to simplify the integration path. Our customers commonly use spreadsheets to store and manipulate the data, and        “TSV export” is a standard option for the majority of spreadsheet programs.
+    
+    We introduced the TSV format in our system, to simplify the integration path. 
+    Our customers commonly use spreadsheets to store and manipulate the data, 
+    and “TSV export” is a standard option for the majority of spreadsheet programs.
 
 The three important things to remember for successful integration:
 
@@ -617,6 +620,7 @@ Those fields are considered a ‘widely adopted market standard’, required, or
 
 <details>
   <summary>What happens if my feed file cannot be fetched</summary>
+    
     When a feed file cannot be fetched, nothing will change on the user’s ads. It’s as if the import didn’t happen. Since the file represents the desired list of     ads to be live, we won’t do anything if we can’t get the file - we cannot read a change in the desired situation.
 
 </details>
