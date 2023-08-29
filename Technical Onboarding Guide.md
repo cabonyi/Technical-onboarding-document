@@ -576,6 +576,7 @@ Supported unit values:
 *   **Area**: _sqft, sqm_
     
 *   **Per unit**: _ct_
+______
 
 ## Frequently Asked Questions
 Below are some common scenarios and questions with their explanations/answers.
@@ -647,4 +648,113 @@ If you’re changing the images without changing the URLs, the changes may not b
 
     For service providers (for e.g in the Job category), a combination of the following tags ``` <price>0</price> ``` and ` <priceType>NOT_APPLICABLE</priceType>` can be used to achieve the same purpose.
 </details>
+______
+#### Price
 
+<details>
+  <summary> Do I need to add a Price?</summary>
+
+    Yes, Price is mandatory. If you are using ‘FIXED_PRICE’ as your priceType then the value must be greater than ‘0’.
+
+For customers importing Jobs or Services using ‘0’  for price is suggested
+</details>
+______
+#### Budget
+
+<details>
+  <summary> Do I need to include a budget?</summary>
+
+    Yes, Price is mandatory. If you are using ‘FIXED_PRICE’ as your priceType then the value must be greater than ‘0’.
+
+For customers importing Jobs or Services using ‘0’  for price is suggested
+
+Sample Budget XML:
+
+  <budget>
+
+     <cpc>50</cpc>
+
+     <dailyBudget>2500</dailyBudget>
+
+     <totalBudget>50000</totalBudget>
+
+   </budget>
+Based on the above configuration, this Ad will no longer be displayed when the total budget exceeds 50000 Cents (€500) or the daily budget exceeds 2500 Cents (€25).
+The Daily Budget for Ads is reset at midnight, where the Total Budget persits as long as the item is included in the feed.
+Daily Budget is an optional field and can be left blank. When setting the Daily Budget via the feed the value must be 10 Cents or greater.
+
+
+**There is also the ‘Feed Daily' budget which controls the limit for the entire feed. This budget is configured by an eBK Admin and must be discussed with the Business Development prior to the feed activation.
+
+</details>
+______
+
+#### URL
+<details>
+  <summary> What is a vanityUrl? Do we need it?</summary>
+
+    The vanityUrl is a mandatory field. This field is displayed in the Ad and should be ‘YourCompanyName.com’
+</details>
+______
+
+
+### Shipping Option
+<details>
+  <summary> How can I display Ads which offer Free shipping? </summary>
+
+```xml
+     <attributes>
+
+            <attribute>
+
+                <attributeName>shipment_cost_visible</attributeName>
+
+                <attributeLabel>Versandkosten anzeigen</attributeLabel>
+
+                <attributeLocale>de_DE</attributeLocale>
+
+                <attributeValue>true</attributeValue>
+
+            </attribute>
+
+            <attribute>
+
+                <attributeName>shipment_cost_desc</attributeName>
+
+                <attributeLabel>Versandkosten</attributeLabel>
+
+                <attributeLocale>de_DE</attributeLocale>
+
+                <attributeValue>Versandkostenfrei</attributeValue>
+
+            </attribute>
+
+        </attributes>
+```
+</details>
+______
+
+
+### Debugging and Validation
+
+All data feeds must be validated before importing to the EBK platform. The command line script below can be used in any terminal to identify errors.
+
+When an error is reached, the script will terminate and output the error to the console.
+
+When the file passes the validation process, the script will output to the console:
+
+‘fileName.xml validates’
+
+Validation Script:
+
+xmllint --nonet --nowarning --noout --encode "UTF-8" --dropdtd --noent fileName.xml --schema Admarkt.xsd
+
+-Replace filename.xml with your XML file name.
+
+
+
+
+
+
+
+      
