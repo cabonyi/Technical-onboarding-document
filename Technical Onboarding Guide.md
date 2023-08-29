@@ -281,6 +281,7 @@ Allowed Values: FIXED_PRICED, NOT_APPLICABLE
 ______
 ### price 
 Use price to tell customers the price of the product you are selling. The meaning of the value depends on the price type.
+Price should be in cent. In the example below, the price value is 15 EUR.
 ```xml
         <price>1500</price>
 ```
