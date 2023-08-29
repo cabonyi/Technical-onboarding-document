@@ -10,7 +10,7 @@ To alternatively view this file on Github, kindly visit this URL <https://github
 - [Purpose](#Purpose)
 - [Introduction](#Introduction)
 - [Import Schedule](#Import-Schedule)
-- Category Tree
+- [Category Tree](#Category Tree)
 - [XML Data Feed Ad Example](#XML-Data-Feed-Ad-Example)
 - Feed Debugging and Validation
 - FAQ
