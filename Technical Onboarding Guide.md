@@ -2,8 +2,9 @@
 
 <img width="969" alt="Bildschirmfoto 2023-08-01 um 14 04 28" src="https://github.com/cabonyi/Technical-onboarding-document/assets/88483311/b9f1ccc4-29a8-44a9-ae24-2e2820a802e2">
 
-# Technical Onboarding Guide
-To alternatively view this file on Github, kindly visit this URL <https://github.com/cabonyi/Technical-onboarding-document/blob/main/Technical%20Onboarding%20Guide.md>
+<p align="center">
+ <h1> Technical Onboarding Guide </h1>
+</p>   To alternatively view this file on Github, kindly visit the URL below <https://github.com/cabonyi/Technical-onboarding-document/blob/main/Technical%20Onboarding%20Guide.md>
 
 # Table of Contents
 
@@ -17,8 +18,13 @@ To alternatively view this file on Github, kindly visit this URL <https://github
     
 ______
 ## Purpose
-The purpose of this document is to assist Kleinanzeigen Advertising Partners during the Technical Onboarding phase.
+The purpose of this document is to assist Kleinanzeigen Advertising Partners during the Technical Onboarding phase and post technical onboarding. It serves as a guide in feed set-up and management.
 ______
+
+## Getting Started
+This guide provides you with a step-by-step guide on how to get started with your technical onboarding process. It includes information on setting up your feed, accessing essential resource reference, and getting acquainted with our Retail Media Advertising platform.
+______ 
+
 ## Introduction
 Dear Valued Customer,
 
