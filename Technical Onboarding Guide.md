@@ -6,7 +6,8 @@
  <h1> Technical Onboarding Guide </h1>
 </p>   
 
-To alternatively view this file on Github, kindly visit the URL below <https://github.com/cabonyi/Technical-onboarding-document/blob/main/Technical%20Onboarding%20Guide.md>
+To alternatively view this file on Github, kindly visit the URL below 
+<https://github.com/cabonyi/Technical-onboarding-document/blob/main/Technical%20Onboarding%20Guide.md>
 
 # Table of Contents
 
