@@ -765,7 +765,7 @@ When an error is reached, the script will terminate and output the error to the 
 
 ______
 <img width="969" alt="Bildschirmfoto 2023-08-01 um 14 04 28" src="https://github.com/cabonyi/Technical-onboarding-document/assets/88483311/b9f1ccc4-29a8-44a9-ae24-2e2820a802e2">
-______
+
 # Kleinanzeigen Category Tree
 
 | L1 - CATEGORY NAME      | L2 - SUB CATEGORY                | CATEGORY ID | Attributes                                                                                                                                                                                                                                  |
