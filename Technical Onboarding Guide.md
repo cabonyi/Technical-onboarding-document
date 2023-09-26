@@ -273,7 +273,7 @@ Use vanity url to provide the text for the url link
         <vanityUrl>BMW</vanityUrl>
 ```
 ______
-### PriceTypes
+### PriceType
 Use price type to define pricing model for your product.
 
 ```xml
@@ -284,6 +284,7 @@ Use price type to define pricing model for your product.
         <priceType>NOT_APPLICABLE</priceType>
 ```
 Allowed Values: FIXED_PRICED, NOT_APPLICABLE
+The Value "NOT_APPLICABLE" is used for products that does not specify price (example in Job category)
 ______
 ### price 
 Use price to tell customers the price of the product you are selling. The meaning of the value depends on the price type.
