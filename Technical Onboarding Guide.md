@@ -273,7 +273,7 @@ Use vanity url to provide the text for the url link
         <vanityUrl>BMW</vanityUrl>
 ```
 ______
-### PriceType
+### Price type
 Use price type to define pricing model for your product.
 
 ```xml
