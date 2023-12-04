@@ -15,6 +15,7 @@ To alternatively view this file on Github, kindly visit the URL below. <br>
 - [Introduction](#Introduction)
 - [Import Schedule](#Import-Schedule)
 - [Kleinanzeigen Category Tree](#Kleinanzeigen-Category-Tree)
+- [Image and Feed Downloads](#Image-and-Feed-Download)
 - [XML Data Feed Ad Example](#XML-Data-Feed-Ad-Example)
 - [Frequently Asked Questions](#Frequently-Asked-Questions)
 - [Feed Debugging and Validation](#Feed-Debugging-and-Validation)
@@ -131,6 +132,36 @@ ______
 -   TSV: [Download sample file here](https://github.com/cabonyi/Technical-onboarding-document/blob/fef352fa6fa06ae519c26314a030e6cea5a42dfd/iCAS%20TSV%20feed%20sample.xlsx)
 -  API: TBD
 
+## Images and Feed Downloads
+Images & feeds are downloaded from the following ip addresses. Ensure that all image URLs are accessible by these ip addresses and that there is no rate limit.
+
+5.255.156.110 (Production)
+
+5.255.156.126 (Production)
+
+3.64.37.25 (Production)
+
+18.194.96.182 (Production)
+
+3.72.155.39 (Production)
+
+34.253.123.82 (Production)
+
+34.246.217.218 (Production)
+
+52.214.29.214 (Production)
+
+3.68.139.10 (Sandbox)
+
+3.77.63.23 (Sandbox)
+
+3.77.131.63 (Sandbox)
+
+91.211.74.6 (Sandbox)
+
+To reduce the latency when updating an ad we suggest that the response contains either an ETag and/or Last-Modified header which only changes when the image itself has changed. It should also be possible to check these headers using a HEAD request.
+
+Keep in mind that when feeds are imported, we potentially have to download many images. Make sure your hosting can handle bursts of image downloads.
 
 ## Feed Fields
 
