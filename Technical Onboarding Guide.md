@@ -130,7 +130,7 @@ ______
 ## Import Types & Schedule
 
 Feed are imported into our platform 4 times daily in following time points
-06:00, 10:00, 14:00, 18:00 (CET) 
+07:00, 10:00, 14:00, 18:00 (CET) 
 
 Feed formats allowed included the following file types namely 
 -   XML : See below examples
