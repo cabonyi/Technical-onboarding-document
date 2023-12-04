@@ -13,7 +13,7 @@ To alternatively view this file on Github, kindly visit the URL below. <br>
 
 - [Purpose](#Purpose)
 - [Introduction](#Introduction)
-- [Import Schedule](#Import-Schedule)
+- [Import Types & Schedule](#Import-Type-&-Schedule)
 - [Kleinanzeigen Category Tree](#Kleinanzeigen-Category-Tree)
 - [Image and Feed Downloads](#Image-and-Feed-Download)
 - [XML Data Feed Ad Example](#XML-Data-Feed-Ad-Example)
@@ -126,8 +126,12 @@ ______
 </ads>
 ```
 ______
-## Import Types
+## Import Types & Schedule
 
+Feed are imported into our platform 4 times daily in following time points
+06:00, 10:00, 14:00, 18:00 (CET) 
+
+Feed formats allowed included the following file types namely 
 -   XML : See below examples
 -   TSV: [Download sample file here](https://github.com/cabonyi/Technical-onboarding-document/blob/fef352fa6fa06ae519c26314a030e6cea5a42dfd/iCAS%20TSV%20feed%20sample.xlsx)
 -  API: TBD
