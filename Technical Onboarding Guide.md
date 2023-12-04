@@ -159,7 +159,7 @@ Images & feeds are downloaded from the following ip addresses. Ensure that all i
 
 91.211.74.6 (Sandbox)
 
-To reduce the latency when updating an ad we suggest that the response contains either an ETag and/or Last-Modified header which only changes when the image itself has changed. It should also be possible to check these headers using a HEAD request.
+To reduce the latency when updating an ad we suggest that the response contains either an  `ETag` and/or `Last-Modified` header which only changes when the image itself has changed. It should also be possible to check these headers using a `HEAD` request.
 
 Keep in mind that when feeds are imported, we potentially have to download many images. Make sure your hosting can handle bursts of image downloads.
 
