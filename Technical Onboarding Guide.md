@@ -260,7 +260,8 @@ Use the description field to tell customers about the details of the product you
             </p>]]>
         <description/> 
 ```
-Restrictions: Any string, with minimum and maximum length determined by the category. See [Categories](http://ecg-icas.github.io/icas/doc/next/categories.html#categories). URLs are not allowed as part of the description. All HTML elements except for the ones below will be removed:
+Restrictions: Maximum character limit is 999 chars.
+URLs are not allowed as part of the description. All HTML elements except for the ones below will be removed:
 
 ```
        <u> <em> <ul> <li> <p> <strong> <br>
