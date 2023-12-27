@@ -182,7 +182,7 @@ XML
 |[price](#price)        |   product price in cents if applicable   |positive integer   |yes/no         |
 |[title](#title)                |product title                       |see title         |yes      |
 |[description](#description)    |product description                 |description       |yes      |
-|[category id](#category_ids)   |category identifier                 |numeric, positive |yes      |
+|[category id](#category-id)   |category identifier                 |numeric, positive |yes      |
 |[Url](#Url)                |product URL                         |max. 2048 chars   |yes      |
 |[vanityUrl](#vanityUrl)    |displayed URL                       |max. 256 chars    |yes       |
 |[price type](#price-type)  |sales model for product             |enum              |yes      |
