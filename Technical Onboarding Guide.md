@@ -16,6 +16,7 @@ To alternatively view this file on Github, kindly visit the URL below. <br>
 - [Import Types & Schedule](#Import-Type-&-Schedule)
 - [Kleinanzeigen Category Tree](#Kleinanzeigen-Category-Tree)
 - [Image and Feed Downloads](#Image-and-Feed-Download)
+- [Kleinanzeigen Category Tree](#Kleinanzeigen-Category-Tree)
 - [XML Data Feed Ad Example](#XML-Data-Feed-Ad-Example)
 - [Frequently Asked Questions](#Frequently-Asked-Questions)
 - [Feed Debugging and Validation](#Feed-Debugging-and-Validation)
